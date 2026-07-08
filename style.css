@@ -771,6 +771,26 @@ button { font: inherit; border: 0; background: none; cursor: pointer; }
 
 
 /* ==========================================================================
+   EXTRACTED UTILITY CLASSES (from inline styles)
+   ========================================================================== */
+
+.workshop-img {
+  object-fit: cover; height: 180px; border-radius: var(--radius-md);
+}
+.footer-section {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+}
+.footer-bottom {
+  border-top: 1px solid var(--border);
+}
+.footer-copyright {
+  color: var(--muted);
+  font-size: 0.8125rem;
+}
+
+
+/* ==========================================================================
    RESPONSIVE BREAKPOINTS — mobile-first overrides
    ========================================================================== */
 
@@ -808,4 +828,3 @@ button { font: inherit; border: 0; background: none; cursor: pointer; }
     scroll-behavior: auto !important;
   }
 }
- 

@@ -370,10 +370,11 @@
               <!-- Workshop photos -->
               <div class="row g-3 mt-3">
                 <div class="col-6">
-                  <img src="./assets/1778829325008.jpg" alt="Area workshop produksi Daun Mas" class="img-fluid w-100" style="object-fit: cover; height: 180px; border-radius: var(--radius-md);">
+                  <img src="./assets/1778829325008.jpg" alt="Area workshop produksi Daun Mas" class="img-fluid w-100 workshop-img">
                 </div>
                 <div class="col-6">
-                  <img src="./assets/6.png" alt="Mesin cetak PVC otomatis" class="img-fluid w-100" style="object-fit: cover; height: 180px; border-radius: var(--radius-md);">
+                  <img src="./assets/6.png" alt="Mesin cetak PVC otomatis" class="img-fluid w-100 workshop-img">
+                </div>
                 </div>
               </div>
             </div>
@@ -428,6 +429,13 @@
               <span class="eyebrow">Event Organizer</span>
               <h3>Event badge & lanyard</h3>
               <p>Badge dan lanyard custom untuk seminar, konferensi, expo, dan acara berskala besar.</p>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-4">
+            <article class="card-base reveal h-100">
+              <span class="eyebrow">Komunitas & Retail</span>
+              <h3>Member card & loyalty program</h3>
+              <p>Kartu anggota dan merchandise eksklusif untuk program loyalitas pelanggan dan komunitas.</p>
             </article>
           </div>
         </div>
@@ -599,29 +607,29 @@
           <div class="col-lg-3 col-md-6">
             <article class="card-base reveal h-100">
               <span class="eyebrow">Panduan</span>
-              <h3>Memilih ID Card PVC Berkualitas</h3>
-              <p>Material premium, laminasi pelindung, dan konsistensi warna — faktor penting untuk kartu identitas yang tahan lama.</p>
+              <h3>Memilih Souvenir Perusahaan yang Tepat</h3>
+              <p>Dari tumbler hingga tas spunbond — panduan memilih souvenir yang sesuai budget, branding, dan kesan profesional.</p>
             </article>
           </div>
           <div class="col-lg-3 col-md-6">
             <article class="card-base reveal h-100">
               <span class="eyebrow">Korporasi</span>
-              <h3>Employee Card Profesional</h3>
-              <p>Tips untuk HRD dan procurement memilih vendor employee card yang tepat untuk perusahaan.</p>
+              <h3>Corporate Gift yang Berkesan untuk Klien</h3>
+              <p>Tips memilih merchandise premium untuk apresiasi klien, partner bisnis, dan program loyalitas perusahaan.</p>
             </article>
           </div>
           <div class="col-lg-3 col-md-6">
             <article class="card-base reveal h-100">
               <span class="eyebrow">Pengadaan</span>
-              <h3>Vendor untuk Proyek Pemerintah</h3>
-              <p>Kriteria vendor ID card untuk pengadaan pemerintah: kapasitas, akurasi, dan pengiriman nasional.</p>
+              <h3>Vendor Merchandise untuk Proyek Pemerintah</h3>
+              <p>Kriteria vendor souvenir untuk pengadaan pemerintah: kapasitas produksi, kualitas cetak, dan pengiriman nasional.</p>
             </article>
           </div>
           <div class="col-lg-3 col-md-6">
             <article class="card-base reveal h-100">
-              <span class="eyebrow">Teknologi</span>
-              <h3>RFID vs Smart Card</h3>
-              <p>Perbedaan frekuensi, kegunaan, dan kompatibilitas RFID card untuk sistem akses gedung.</p>
+              <span class="eyebrow">Event</span>
+              <h3>Merchandise Wajib untuk Seminar &amp; Expo</h3>
+              <p>Lanyard, tas seminar, kipas tangan, dan tumbler — checklist merchandise yang wajib ada di setiap event.</p>
             </article>
           </div>
         </div>
@@ -689,7 +697,7 @@
                   <input class="form-control" id="quantity" type="text" placeholder="Contoh: 10.000 pcs" required aria-describedby="qtyError" />
                   <div class="field-error" id="qtyError">Quantity wajib diisi</div>
                 </div>
-                <div class="col-md-6 form-group">
+                <div class="col-12 form-group">
                   <label class="form-label" for="deadline">Deadline</label>
                   <input class="form-control" id="deadline" type="text" placeholder="Tanggal atau estimasi" />
                 </div>
@@ -725,7 +733,7 @@
           <span class="eyebrow">FAQ</span>
           <h2>Pertanyaan yang sering diajukan</h2>
         </div>
-        <div class="accordion reveal" id="faqAccordion" style="max-width: 720px;">
+        <div class="accordion reveal" id="faqAccordion" style="max-width:720px">
           <div class="accordion-item">
             <h3 class="accordion-header">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne">Berapa minimum order?</button>
@@ -784,7 +792,7 @@
   <!-- ================================================================
        FOOTER & CONTACT
        ================================================================ -->
-  <footer class="section" id="contact" style="background: var(--surface); border-top: 1px solid var(--border);">
+  <footer class="section footer-section" id="contact">
     <div class="container">
       <div class="row g-4 g-lg-5 align-items-start">
         <div class="col-lg-5">
@@ -801,8 +809,8 @@
               <div><small>WhatsApp</small><strong>+62 813-1986-6167</strong></div>
               <span>Respons cepat</span>
             </a>
-            <a class="contact-card" href="mailto:hello@daunmas.co.id">
-              <div><small>Email</small><strong>hello@daunmas.co.id</strong></div>
+            <a class="contact-card" href="mailto:Steven@daunmasgroup.com">
+              <div><small>Email</small><strong>Steven@daunmasgroup.com</strong></div>
               <span>Penawaran resmi</span>
             </a>
             <a class="contact-card" href="tel:+6281319866167">
@@ -813,23 +821,22 @@
               <div><small>Alamat</small><strong>Jl. Petak Baru Bawah Layang, Asemka Blok C51, Tambora, Roa Malaka, Jakarta Barat</strong></div>
             </div>
             <div class="contact-card">
-              <div><small>Jam Operasional</small><strong>Senin – Sabtu, 08.00 – 17.00 WIB</strong></div>
+              <div><small>Jam Operasional</small><strong>Senin – Sabtu, 09.30 – 16.30 WIB</strong></div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Embedded map -->
       <div class="map-shell reveal mt-4">
-        <iframe title="Lokasi kantor Daun Mas di Jakarta Barat" src="https://www.google.com/maps?q=Jl.%20Petak%20Baru%20Bawah%20Layang%20Asemka%20Blok%20C51%20Tambora%20Roa%20Malaka%20Jakarta%20Barat&z=15&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe title="Lokasi kantor Daun Mas di Jakarta Barat" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.666!2d106.813!3d-6.144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMDgnMzguNCJTIDEwNsKwNDgnNDcuMCJF!5e0!3m2!1sid!2sid!4v1234567890" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="map-actions">
-          <a class="btn btn-brand" href="https://www.google.com/maps/search/?api=1&query=Jl.+Petak+Baru+Bawah+Layang+Asemka+Blok+C51+Tambora+Roa+Malaka+Jakarta+Barat" target="_blank" rel="noopener noreferrer">Buka di Google Maps</a>
+          <a class="btn btn-brand" href="https://maps.app.goo.gl/2tg646Sv1S6RTymT9?g_st=aw" target="_blank" rel="noopener noreferrer">Buka di Google Maps</a>
         </div>
       </div>
 
       <!-- Footer bottom -->
-      <div class="text-center mt-4 pt-3" style="border-top: 1px solid var(--border);">
-        <p style="color: var(--muted); font-size: 0.8125rem;">© 2025 Daun Mas. Spesialis produksi ID Card & Lanyard B2B.</p>
+      <div class="text-center mt-4 pt-3 footer-bottom">
+        <p class="footer-copyright">© 2026 Daun Mas. Spesialis produksi souvenir & merchandise custom B2B.</p>
       </div>
     </div>
   </footer>
